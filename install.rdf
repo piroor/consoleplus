@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>{5B7D265F-0A74-4264-864F-684F761E89F4}</em:id>
+
+		<em:version>0.1.2005042201</em:version>
+
+
+		<em:targetApplication>
+			<Description><!-- Firefox -->
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>0.8</em:minVersion>
+				<em:maxVersion>1.5.0.*</em:maxVersion>
+			</Description>
+			<Description><!-- Mozilla Suite -->
+				<em:id>{86c18b42-e466-45a9-ae7a-9b95ba6f5640}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>1.8</em:maxVersion>
+			</Description>
+			<Description><!-- Netscape Browser 8 -->
+				<em:id>{3db10fab-e461-4c80-8b97-957ad5f8ea47}</em:id>
+				<em:minVersion>8.0</em:minVersion>
+				<em:maxVersion>8.1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:name>JavaScript Console Plus</em:name>
+		<em:description>Adds some features to the JavaScript Console.</em:description>
+		<em:creator>SHIMODA Hiroshi</em:creator>
+		<em:homepageURL>http://piro.sakura.ne.jp/</em:homepageURL>
+		<!--em:updateURL>http://piro.sakura.ne.jp/xul/xul.rdf.en</em:updateURL-->
+
+
+		<!--em:aboutURL>chrome://observeclipboard/content/pref/prefDialog.xul</em:aboutURL-->
+		<!--em:iconURL></em:iconURL-->
+
+
+		<em:file>
+			<Description about="urn:mozilla:extension:file:consoleplus.jar">
+				<em:package>content/consoleplus/</em:package>
+				<em:locale>locale/en-US/consoleplus/</em:locale>
+				<em:locale>locale/ja-JP/consoleplus/</em:locale>
+			</Description>
+		</em:file>
+	</Description>
+</RDF>
